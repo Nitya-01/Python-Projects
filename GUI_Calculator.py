@@ -1,13 +1,9 @@
-# Python program to create a simple GUI 
-# calculator using Tkinter 
+# Python program to create a simple calculator using GUI
 
 from tkinter import *
-
-# globally declare the expression variable 
+ 
 expression_str = "" 
-
-# Function to update expression 
-# in the text entry box 
+ 
 def press(num): 
 	global expression_str 
 	expression_str = expression_str + str(num) 
