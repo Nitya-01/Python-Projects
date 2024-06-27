@@ -38,15 +38,15 @@ def display_relationship_status(player1, player2):
 
     # Personalized messages based on relationship status
     if relationship_key == "F":
-        result_message += f"Congratulations! You have a good chance of being great friends."
+        result_message += f"You have a good chance of being great friends."
     elif relationship_key == "L":
-        result_message += f"Wow! Looks like there could be some romantic sparks between you."
+        result_message += f"Looks like there could be some L word association."
     elif relationship_key == "A":
-        result_message += f"Sweet! Affection is definitely in the air."
+        result_message += f"Sweet! Affection."
     elif relationship_key == "M":
         result_message += f"Interesting! Marriage might be in the cards for you two."
     elif relationship_key == "E":
-        result_message += f"Oops! Watch out, there might be some friction or rivalry."
+        result_message += f"Oops! Watch out, there might be some enimosity"
     elif relationship_key == "S":
         result_message += f"Aww! You two might share a sibling-like bond."
 
