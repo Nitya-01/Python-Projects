@@ -31,7 +31,7 @@ def determine_winner(player_choice, computer_choice):
 
 def display_result(result):
     if result == 'DRAW':
-        print("It's a draw!")
+        print("Draw!")
     elif result == 'PLAYER':
         print("You win!")
     else:
