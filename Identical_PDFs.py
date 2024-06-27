@@ -18,7 +18,7 @@ def calculate_file_hash(file_path1, file_path2):
         print(f"Error: One or both files not found.")
         return None, None
     except PermissionError:
-        print(f"Error: Permission denied to access one or both files.")
+        print(f"Error: Access permission denied for one or both files.")
         return None, None
 
     return hash1.hexdigest(), hash2.hexdigest()
