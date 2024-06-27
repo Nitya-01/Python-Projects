@@ -2,9 +2,7 @@ import random
 from collections import Counter
 
 # List of words (fruits) to choose from
-someWords = '''apple banana mango strawberry 
-orange grape pineapple apricot lemon coconut watermelon 
-cherry papaya berry peach lychee muskmelon'''
+someWords = '''strawberry orange grape pineapple apricot lemon coconut apple watermelon cherry banana papaya berry peach muskmelon'''
 
 # Split the words into a list
 someWords = someWords.split()
