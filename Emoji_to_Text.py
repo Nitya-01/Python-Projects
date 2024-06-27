@@ -1,4 +1,4 @@
-# THIS IN PROMPT
+# THIS IN PROMPT FIRST
 # import demoji 
 # demoji.download_codes()
 
